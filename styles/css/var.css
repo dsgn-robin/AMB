@@ -1,0 +1,81 @@
+
+/* ----- COULEURS ----- */
+
+@property --vert-sapin {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #1E3A2B;
+}
+@property --terracotta {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #C15C3D;
+}
+@property --ocre-dore {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #DFA460;
+}
+@property --blanc-neige {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: #F8F9FA;
+}
+
+@property --main-color {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: rgb(255 255 255);
+}
+
+@property --main-text-color {
+    syntax: '<color>';
+    inherits: true;
+    initial-value: rgb(74 85 104);
+}
+
+/* ----- FONTS ----- */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(./../../src/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Open_Sans";
+  src: url(./../../src/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+/* ----- DIV ----- */
+
+.fir-page, .sec-page, .thi-page, .fou-page, .fif-page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-section-sec, .text-section-thi, .text-section-fou, .text-section-fif{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    gap:3vw;
+}
+
+.ts-text-divider{
+    height: 0.6vh;
+    width: 4vw;
+    background-color: var(--terracotta);
+    border-radius: 99999px;
+}
+
+.ts-text{
+    font-family: "montserrat";
+    font-size: 0.875rem;
+    color: var(--terracotta);
+    font-weight: 700;
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-style: none;
+}
+
+h2 {
+  font-style: none;
+}
+
+a {
+  text-decoration: none;
+}
